@@ -4,16 +4,16 @@ Simple Json prettifier for Rust language.
 
 # Installation
 
-In Cargo.toml:
+In `Cargo.toml`:
 
-```
+```toml
 [dependencies]
 json_pretty = "*"
 ```
 
 # Example
 
-```
+```rust
 extern crate json_pretty;
 use json_pretty::PrettyFormatter;
 
